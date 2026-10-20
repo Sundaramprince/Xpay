@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center safe area is 21 to 87 (66x66) -->
+    <!-- Stylized dynamic X fintech emblem -->
+    <path
+        android:pathData="M32,32 L46,32 L76,76 L62,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="76"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#00B0FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M62,32 L76,32 L46,76 L32,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="76"
+                android:startY="32"
+                android:endX="32"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C4DFF" />
+                <item android:offset="1.0" android:color="#B388FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center overlapping payment spark dot -->
+    <path
+        android:pathData="M54,50 L58,54 L54,58 L50,54 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Mini UPI arrow accents -->
+    <path
+        android:pathData="M68,36 L74,36 L74,42"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

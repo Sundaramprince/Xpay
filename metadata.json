@@ -1,0 +1,8 @@
+{
+  "name": "Xpay",
+  "description": "Xpay is a sleek UPI and digital wallet payment app with instant money transfers, QR scan & pay, bank account management, and smart expense tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
